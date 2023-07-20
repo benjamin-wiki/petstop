@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["./**/*", "../models/**/*"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "../dist",
+    "noEmit": false,
+    "baseUrl": ".",
+    "paths": {}
+  }
+}
